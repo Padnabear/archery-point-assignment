@@ -12,7 +12,7 @@
 .col {
 	display: block;
 	float:left;
-	margin: 1% 0 1% 1.6%;
+	margin: 1% 0 1% 1.5%;
 }
 .col:first-child { margin-left: 0; }
 .group:before,
@@ -65,6 +65,7 @@
 .span_1_of_12 {
   	width: 6.866%;
 }
+
 body {
   color: #444444;
 }
@@ -94,7 +95,6 @@ body p {
 .banner {
   background-color: #03a3df;
   color: white;
-  font-size: 50px;
   width: 100%;
   float: left;
   position: relative;
@@ -128,6 +128,8 @@ body p {
 }
 .Schedule {
   border: solid #ecb722 3px;
+  background: #1b447f;
+  color: white;
 }
 footer {
   background-image: url("../images/footerImage.jpg");
@@ -165,12 +167,21 @@ footer {
 .navbar-foot li:last-of-type:after {
   content: none;
 }
-.foottext{
+.instructor {
+  display: block;
+  color: #03a3df;
+  margin: 5%;
+}
+.instructor p {
+  margin-left: 0;
+}
+.instructor h2 {
+  margin-left: 0;
+}
+.link {
+  color: white;
 
 }
-footer p {
-  padding-left: 1.5em;
-}
-footer img {
-  padding-left: 4em;
-}
+.link:visited{
+  color: #ecb722;
+} 

@@ -93,7 +93,7 @@ body p {
   margin: 1em 1em 1em 2em;
 }
 .banner {
-  background-color: #03a3df;
+  background-color: #03729B;
   color: white;
   width: 100%;
   float: left;
@@ -168,7 +168,7 @@ footer {
 }
 .instructor {
   display: block;
-  color: #03a3df;
+  color: ##0376A0;
   margin: 5%;
 }
 .instructor p {
